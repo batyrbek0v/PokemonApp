@@ -1,3 +1,3 @@
 # PokemonApp
-# <a href="pokemon-app-by-erlan.netlify.app">PokemonApp</a>
+# <a href="pokemon-app-by-erlan.netlify.app">PokemonApp.netlify.app</a>
 
