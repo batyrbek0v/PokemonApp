@@ -375,7 +375,13 @@ body{
     }
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:425px){
+    .stats_inline{
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width:376px){
     .progress{
         width: 42.5px;
     }
@@ -388,5 +394,6 @@ body{
     .stats h2{
         font-size: 19px;
     }
+  
 }
 /* ADAPTIVE-END */
