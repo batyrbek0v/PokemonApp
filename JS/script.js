@@ -175,7 +175,7 @@ $pageInput.addEventListener('input', e => {
 	if(selectedValue === 'name'){
 		getData(`${BASE_URL}pokemon`, `limit=${ALL_POKEMONS}&offset=${offSetCounter}`, cb => {
 			const filtered = cb.results.filter(item => item.name.toUpperCase().includes(selectPage))
-			cardTemplate(fi)
+			cardTemplate(filtered)
 		})
 	}
 })
