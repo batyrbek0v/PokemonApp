@@ -80,27 +80,27 @@ function moreInfo(url) {
 				<div class="stats_block2">
 					<div class="stats_inline">
 						<div class="stats">
-							<div class="progress" style="height:${cb.stats[0].base_stat}%;">${cb.stats[0].base_stat}</div>
+							<div class="progress" style="height:${cb.stats[0].base_stat}pt;">${cb.stats[0].base_stat}</div>
 							<h2><i class="fa fa-heart"></i></h2>
 						</div>
 						<div class="stats">
-							<div class="progress" style="height:${cb.stats[1].base_stat}%;">${cb.stats[1].base_stat}</div>
+							<div class="progress" style="height:${cb.stats[1].base_stat}pt;">${cb.stats[1].base_stat}</div>
 							<h2><i class="fas fa-fist-raised"></i></h2>
 						</div>
 						<div class="stats">
-							<div class="progress" style="height:${cb.stats[2].base_stat}%;">${cb.stats[2].base_stat}</div>
+							<div class="progress" style="height:${cb.stats[2].base_stat}pt;">${cb.stats[2].base_stat}</div>
 							<h2><i class="fas fa-shield-alt"></i></h2>
 						</div>
 						<div class="stats">
-							<div class="progress" style="height:${cb.stats[3].base_stat}%;">${cb.stats[3].base_stat}</div>
+							<div class="progress" style="height:${cb.stats[3].base_stat}pt;">${cb.stats[3].base_stat}</div>
 							<h2><i class="fas fa-fist-raised"></i></h2>
 						</div>
 						<div class="stats">
-							<div class="progress" style="height:${cb.stats[4].base_stat}%;">${cb.stats[4].base_stat}</div>
+							<div class="progress" style="height:${cb.stats[4].base_stat}pt;">${cb.stats[4].base_stat}</div>
 							<h2><i class="fas fa-shield-alt"></i></h2>
 						</div>
 						<div class="stats">
-							<div class="progress" style="height:${cb.stats[5].base_stat}%;">${cb.stats[5].base_stat}</div>
+							<div class="progress" style="height:${cb.stats[5].base_stat}pt;">${cb.stats[5].base_stat}</div>
 							<h2><i class="fas fa-bolt"></i></h2>
 						</div>
 					</div>

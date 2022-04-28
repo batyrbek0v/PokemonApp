@@ -20,14 +20,14 @@ body{
 .card{
     width: 450px;
     height: 420px;
-    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    background-color: lightseagreen;
+    cursor: pointer;
+    padding: 20px 10px;
     border-radius: 12px;
     gap: 10px;
+    background-color: #365FAC;
 }
 
 .card_title{
@@ -37,6 +37,8 @@ body{
     text-align: center;
     background-color: aliceblue;
     border-radius: 4px;
+    color: #FFCC01;
+    text-shadow: -2px 2px 1px #0353A4;
 }
 .card_body{
     display: flex;
@@ -58,18 +60,18 @@ body{
 }
 .card_footer .moreBtn{
     width: 100%;
-    height: 50px;
+    height: 45px;
     border-radius: 4px;
     background-color: aliceblue;
     border: 2px solid white;
-    color: lightseagreen;
+    color: #365FAC;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     transition: .3s;
 }
 .card_footer .moreBtn:hover{
-    background-color: lightseagreen;
+    background-color: #365FAC;
     color: aliceblue;
 }
 /* //////////////////////// */
@@ -93,13 +95,15 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+
 }
 .more_title{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: lightseagreen;
-    color: white;
+    background-color: #365FAC;
+    color: #FFCC01;
+    text-shadow: -2px 2px 1px #0E35CF;
     border-radius: 6px;
 }
 .single_main{
@@ -108,7 +112,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightseagreen;
+    background-color: #365FAC;
     border-radius: 12px;
     padding: 1rem;
 
@@ -120,7 +124,7 @@ body{
     width: 100%;
     height: 100%;
     padding: 1.5rem;
-    background-color: #F2F2F2;
+    background-color: #86baddab;
     border-radius: 12px;
 }
 .single img{
@@ -136,7 +140,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     padding: 1rem;
-    background-color: lightseagreen;
+    background-color: #365FAC;
     border-radius: 12px;
     color: white;
 }
@@ -149,6 +153,7 @@ body{
 .more_list li{
     font-size: 20px;
     margin: 10px 0;
+    color: gold;
 }
 
 .more_btn{
@@ -162,21 +167,21 @@ body{
 .stats_block2{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    height: 410px;
+    justify-content: center;
+    height: 360px;
     width: 450px;
-    background-color: lightseagreen;
+    background-color: #365FAC;
     color: white;
     padding: 1rem;
     border-radius: 12px;
 }
 .stats_inline{
-    height: 100%;
+    height: 80%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: #138680;
+    background-color: #061A40;
     padding: 5px 0;
     border-radius: 12px;
     gap:20px;
@@ -200,7 +205,6 @@ body{
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 
 .progress{
     display: flex;
@@ -255,8 +259,9 @@ body{
 .backBtn{
     width: 200px;
     height: 50px;
-    background-color: lightseagreen;
-    color: white;
+    background-color: #365FAC;
+    color: #FFCC01;
+    text-shadow: -2px 2px 1px #0E35CF;
     border: none;
     outline: none;
     border-radius: 6px;
