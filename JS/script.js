@@ -9,6 +9,7 @@ const $pageInput = document.querySelector('.pageInput')
 const $inputBtn = document.querySelector('.inputBtn')
 const $btns = document.querySelector('.buttons')
 const $selectPage = document.querySelector('.selectPage')
+const $select = document.querySelector('.select')
 
 const BASE_URL = 'https://pokeapi.co/api/v2/'
 
@@ -165,9 +166,20 @@ $prev.addEventListener('click', e => {
 		cardTemplate(cb.results)
 	})
 })
-$pageInput.addEventListener('change', e => {
-	selectPage = e.target.value
+
+
+
+$pageInput.addEventListener('input', e => {
+	selectPage = e.target.value.toUpperCase().trim()
+	const selectedValue = $select.value
+	if(selectedValue === 'name'){
+		getData(`${BASE_URL}pokemon`, `limit=${ALL_POKEMONS}&offset=${offSetCounter}`, cb => {
+			const filtered = cb.results.filter(item => item.name.toUpperCase().includes(selectPage))
+			cardTemplate(fi)
+		})
+	}
 })
+
 $inputBtn.addEventListener('click', e => {
 	e.preventDefault()
 	if(selectPage > ALL_PAGES || selectPage < 1 || selectPage === currentPage) {
@@ -180,7 +192,9 @@ $inputBtn.addEventListener('click', e => {
 		$pageInput.value = ''
 	}else {
 		const selectedOffSet = selectPage * LIMIT - LIMIT
+
 		offSetCounter = selectedOffSet
+
 		$currentPage.innerHTML = selectPage
 		currentPage = selectPage
 
